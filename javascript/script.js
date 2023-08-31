@@ -36,11 +36,76 @@ meuNome("Isabel Coutinho");
 
 // 5 - Exercício
 
-function meusDados(nome, idade, filme) {
-    console.log(`Meu nome é ${nome}, tenho ${idade} anos de idade e meu filme favorito é ${filme}`);
+function meusDados(nome, idade, estilo) {
+    console.log(`Meu nome é ${nome}, tenho ${idade} anos de idade e meu estilo musical favorito é ${estilo}`);
 }
 
-meusDados("Isabel Coutinho", 21, "Harry Potter!");
+meusDados("Isabel Coutinho", 21, "Indie Alternativo!");
 
 // 6 - Exercício
 
+function gosto(filme, musica){
+    console.log(`Meu filme favorito é ${filme} e minha música favorita é ${musica}`);
+}
+
+gosto("Harry Potter", "Enjoy The Silence");
+
+// 7 - Exercício
+
+function number(triplo){
+return triplo*3;
+}
+console.log(`O Triplo desse número é ${number(25)}`);
+
+// 8 - Exercício
+
+function boolean(variable) {
+    if (variable === true) {
+      return "A variável é verdadeira.";
+    } else if (variable === false) {
+      return "A variável é falsa.";
+    } else {
+      return "A variável não é um valor booleano";
+    }
+  }
+  console.log(boolean(true));
+  console.log(boolean(false));
+  console.log(boolean(0));
+
+// 9 - Exercício
+
+  let melhoresFilmes = ["Harry Potter", " Star Wars", " O Senhor dos Anéis", " Matrix", " Avatar"];
+
+  console.log(`Os melhores filmes são ${melhoresFilmes}`);
+
+// 10 - Exercício
+
+let comidas = ["Pizza","Churrasco","Hambúrguer"];
+
+comidas.unshift("Batata Frita");
+console.log(comidas);
+
+// 11 - Exercício
+
+let sorvetes = ["Chocolate","Flocos","Amendoim"];
+
+sorvetes.pop();
+console.log(sorvetes);
+
+
+// 12 - Exercício
+
+let refrigerantes = ["Sukita","Guaraná","Pepsi"];
+
+refrigerantes.push("Coca-Cola", "Fanta");
+console.log(refrigerantes);
+
+// 13 - Exercício
+
+let sucos = ["Acerola","Cupuaçu","Maracujá"];
+
+sucos.shift();
+console.log(sucos);
+
+
+  
