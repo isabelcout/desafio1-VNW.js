@@ -76,7 +76,7 @@ function boolean(variable) {
 
   let melhoresFilmes = ["Harry Potter", " Star Wars", " O Senhor dos Anéis", " Matrix", " Avatar"];
 
-  console.log(`Os melhores filmes são ${melhoresFilmes}`);
+  console.log(melhoresFilmes);
 
 // 10 - Exercício
 
@@ -106,6 +106,105 @@ let sucos = ["Acerola","Cupuaçu","Maracujá"];
 
 sucos.shift();
 console.log(sucos);
+
+// 14 - Exercício
+
+let numbers = [7,5,6,3,8,9,2,1,4]
+
+numbers.sort();
+console.log(numbers);
+
+// 15 - Exercício
+
+let usuario = {
+    nome: "Isabel",
+    idade: 21,
+    signo: "Peixes"
+};
+
+console.log(usuario);
+
+// 16 - Exercício
+
+let dados = {
+    nome: "Isabel",
+    idade: 21,
+    signo: "Peixes"
+};
+
+dados.cor = "Amarelo";
+console.log(dados);
+
+// 17 - Exercício
+
+let informacoes = {
+    nome: "Isabel",
+    idade: 21,
+    signo: "Peixes"
+};
+
+delete informacoes.signo;
+console.log(informacoes);
+
+// 18 - Exercício
+
+let cao = {
+    nome: "Bidu",
+    idade: 2,
+    raça: "Poodle",
+    sexo: "Macho"
+};
+
+console.log(cao);
+
+// 19 - Exercício
+
+let cadastro = [
+    {
+        nome: "João",
+        idade: 21,
+        telefone: 98435781456,
+        amigos: ["Maria", "Eduardo", "Joana", "Nicole"]
+    },
+
+    {
+        nome: "Maria",
+        idade: 25,
+        telefone: 98452173613,
+        amigos: ["João", "Eduardo", "Joana", "Nicole"]
+    },
+
+    {
+        nome: "Eduardo",
+        idade: 23,
+        telefone: 99863145778,
+        amigos: ["Maria", "João", "Joana", "Nicole"]
+    },
+
+    {
+        nome: "Joana",
+        idade: 23,
+        telefone: 99631548723,
+        amigos: ["Maria", "Eduardo", "João", "Nicole"]
+    },
+
+    {
+        nome: "Nicole",
+        idade: 29,
+        telefone: 9864123578,
+        amigos: ["Maria", "Eduardo", "Joana", "João"]
+    }
+];
+
+console.log(cadastro);
+
+// 20 - Exercício
+
+console.log(cadastro[0].amigos[0], cadastro[1].amigos[1], cadastro[2].amigos[2], cadastro[3].amigos[3], cadastro[4].amigos[3]);
+
+
+
+
 
 
   
